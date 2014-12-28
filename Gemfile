@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+
+gem "rack"
+gem "webrick"
+gem "openssl"
+gem "net"
+gem "sinatra"
+gem "sinatra-contrib"
+gem "sinatra-cross_origin", "~> 0.3.1"
+gem "json"

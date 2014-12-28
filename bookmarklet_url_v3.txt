@@ -1,0 +1,7 @@
+javascript: (function(d) {
+    var s = d.createElement('script');
+    s.id = 'bookmarklet';
+    s.charset = 'UTF-8';
+    s.src = 'https://localhost:8443/bookmarklet?time=' + (new Date()).getTime();
+    d.body.appendChild(s)
+})(document);

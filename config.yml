@@ -1,0 +1,4 @@
+port: 8443
+cert_path:
+  certificate: ./myCA/server.crt
+  private_key: ./myCA/server.key

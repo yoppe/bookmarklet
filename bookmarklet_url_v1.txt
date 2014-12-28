@@ -1,0 +1,5 @@
+javascript: (function(d) {
+    cw_textarea = d.getElementById('_chatText');
+    cw_textarea.value = cw_textarea.value + "[To:0000]hoge [To:0000]fuga [To:0000]foo ";
+    cw_textarea.focus();
+})(document);
